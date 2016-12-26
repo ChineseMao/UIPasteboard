@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  transSometing.h
 //  Practice_UIPasteboard
 //
 //  Created by 毛韶谦 on 2016/12/13.
 //  Copyright © 2016年 毛韶谦. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@protocol transSometing <NSObject>
 
+- (void)transSomeTing:(id)sender;
 
 @end
-

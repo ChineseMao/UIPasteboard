@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PasteboardImageView.h
 //  Practice_UIPasteboard
 //
 //  Created by 毛韶谦 on 2016/12/13.
@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "transSometing.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface PasteboardImageView : UIImageView
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, weak)id <transSometing>delegate;
 
 @end
-

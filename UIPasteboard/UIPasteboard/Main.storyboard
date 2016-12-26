@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="82da2aedf52d474b213cc31eb8839216_b.png" translatesAutoresizingMaskIntoConstraints="NO" id="oHU-kb-Meq" customClass="PasteboardImageView">
+                                <rect key="frame" x="18" y="40" width="160.5" height="160.5"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="GRn-L2-DOt" appends="YES" id="5ph-kg-q2l"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mdd-Ga-hmJ" customClass="PasteboardImageView">
+                                <rect key="frame" x="196.5" y="40" width="160.5" height="160.5"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Mdd-Ga-hmJ" secondAttribute="height" multiplier="1:1" id="HU1-G3-MXw"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="nC8-pb-zgD" appends="YES" id="IAz-3N-T5B"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是母体，来复制我" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGZ-Lz-aGm" customClass="PasteboardLabel">
+                                <rect key="frame" x="20.5" y="237" width="156" height="21"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="YT3-cZ-Zc7"/>
+                                    <constraint firstAttribute="width" constant="156" id="ib1-Gi-5kh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OjI-mE-L8I" appends="YES" id="aGW-A2-qXC"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ww-Kj-28f" customClass="PasteboardLabel">
+                                <rect key="frame" x="197" y="237" width="160" height="21"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Q4b-m2-8Pp"/>
+                                    <constraint firstAttribute="height" constant="21" id="Qjv-6w-U9f"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="Tox-MY-WUX"/>
+                                    <constraint firstAttribute="width" constant="160" id="kgd-O6-av6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Q6A-Gl-2Ai" appends="YES" id="LDU-90-8OE"/>
+                                </connections>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zQt-5j-LPQ">
+                                <rect key="frame" x="93.5" y="340" width="187.5" height="187.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zQt-5j-LPQ" secondAttribute="height" multiplier="1:1" id="0Px-7d-aEF"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oHU-kb-Meq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="18" id="4NO-GH-HfD"/>
+                            <constraint firstItem="zQt-5j-LPQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5n7-40-UmA"/>
+                            <constraint firstItem="oHU-kb-Meq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="9ZU-0J-AKi"/>
+                            <constraint firstItem="zQt-5j-LPQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="GFk-D0-EUI"/>
+                            <constraint firstItem="zQt-5j-LPQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="IEz-BU-gPE"/>
+                            <constraint firstItem="FGZ-Lz-aGm" firstAttribute="centerX" secondItem="oHU-kb-Meq" secondAttribute="centerX" id="Kmz-sL-Mrc"/>
+                            <constraint firstItem="6Ww-Kj-28f" firstAttribute="centerX" secondItem="Mdd-Ga-hmJ" secondAttribute="centerX" id="duw-sg-vG3"/>
+                            <constraint firstItem="oHU-kb-Meq" firstAttribute="width" secondItem="Mdd-Ga-hmJ" secondAttribute="width" id="ndb-pO-rKA"/>
+                            <constraint firstItem="6Ww-Kj-28f" firstAttribute="centerY" secondItem="FGZ-Lz-aGm" secondAttribute="centerY" id="sqC-el-zqT"/>
+                            <constraint firstItem="Mdd-Ga-hmJ" firstAttribute="leading" secondItem="oHU-kb-Meq" secondAttribute="trailing" constant="18" id="uIW-v6-Nwf"/>
+                            <constraint firstItem="oHU-kb-Meq" firstAttribute="height" secondItem="Mdd-Ga-hmJ" secondAttribute="height" id="wCj-L4-HwQ"/>
+                            <constraint firstItem="oHU-kb-Meq" firstAttribute="top" secondItem="Mdd-Ga-hmJ" secondAttribute="top" id="xEn-AC-Gs0"/>
+                            <constraint firstItem="FGZ-Lz-aGm" firstAttribute="top" secondItem="oHU-kb-Meq" secondAttribute="bottom" constant="36.5" id="xoP-t5-MXk"/>
+                            <constraint firstAttribute="trailing" secondItem="Mdd-Ga-hmJ" secondAttribute="trailing" constant="18" id="yDU-zG-VYK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="oHU-kb-Meq" id="J3Y-yF-w1b"/>
+                        <outlet property="leftLabel" destination="FGZ-Lz-aGm" id="V9r-WZ-vgk"/>
+                        <outlet property="rightImageView" destination="Mdd-Ga-hmJ" id="Dk6-ty-rXf"/>
+                        <outlet property="rightLabel" destination="6Ww-Kj-28f" id="C4J-PO-5MQ"/>
+                        <outlet property="textImageView" destination="zQt-5j-LPQ" id="gb6-cG-mpt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="GRn-L2-DOt">
+                    <connections>
+                        <action selector="longPressGestureAction:" destination="BYZ-38-t0r" id="cv0-Qc-HIv"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="nC8-pb-zgD">
+                    <connections>
+                        <action selector="rightTapGesture:" destination="BYZ-38-t0r" id="pGZ-hQ-CQ9"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="OjI-mE-L8I">
+                    <connections>
+                        <action selector="labelLongPressGesture:" destination="BYZ-38-t0r" id="gtW-cp-Xu2"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="Q6A-Gl-2Ai">
+                    <connections>
+                        <action selector="labelTapGesture:" destination="BYZ-38-t0r" id="uoN-Yi-fkj"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-44" y="1.3493253373313345"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="82da2aedf52d474b213cc31eb8839216_b.png" width="395" height="474"/>
+    </resources>
+</document>
